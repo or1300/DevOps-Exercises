@@ -1,0 +1,3 @@
+orr@DESKTOP-02NJ6HJ:~/Python-project$ git checkout 32311
+textfile.txt: needs merge
+error: you need to resolve your current index first

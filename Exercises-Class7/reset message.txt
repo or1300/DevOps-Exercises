@@ -1,0 +1,8 @@
+orr@DESKTOP-02NJ6HJ:~/Python-project$ git reset --hard 169eb1ef18986132dbe2257a758c77fa01b67f70
+HEAD is now at 169eb1e Initial commit
+orr@DESKTOP-02NJ6HJ:~/Python-project$ git log
+commit 169eb1ef18986132dbe2257a758c77fa01b67f70 (HEAD -> master)
+Author: Orr <orrozon@gmail.com>
+Date:   Sat Jun 12 17:21:39 2021 +0300
+
+    Initial commit

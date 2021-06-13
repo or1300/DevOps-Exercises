@@ -1,0 +1,4 @@
+orr@DESKTOP-02NJ6HJ:~/Python-project$ git merge develop
+CONFLICT (add/add): Merge conflict in textfile.txt
+Auto-merging textfile.txt
+Automatic merge failed; fix conflicts and then commit the result.
