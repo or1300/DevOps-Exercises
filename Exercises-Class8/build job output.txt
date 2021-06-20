@@ -1,0 +1,30 @@
+Started by user orr ozon
+Running as SYSTEM
+Building in workspace C:\Users\Orr ozon\.jenkins\workspace\Git MySoftware
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential c2ead72e-b761-4e08-80ff-286b95373da7
+ > C:\Program Files\Git\cmd\git.exe rev-parse --resolve-git-dir C:\Users\Orr ozon\.jenkins\workspace\Git MySoftware\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/or1300/MySoftware # timeout=10
+Fetching upstream changes from https://github.com/or1300/MySoftware
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.32.0.windows.1'
+using GIT_ASKPASS to set credentials 
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/or1300/MySoftware +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 06546d49db71ffe41bdb46dcd96c769005fdce71 (refs/remotes/origin/main)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f 06546d49db71ffe41bdb46dcd96c769005fdce71 # timeout=10
+Commit message: "Rename README.md.txt to README.md"
+First time build. Skipping changelog.
+[Git MySoftware] $ cmd /c call C:\Users\ORROZO~1\AppData\Local\Temp\jenkins3962156627236363161.bat
+
+C:\Users\Orr ozon\.jenkins\workspace\Git MySoftware>python NewButton.py 
+Click
+
+C:\Users\Orr ozon\.jenkins\workspace\Git MySoftware>python NewScreen.py 
+New Screen
+
+C:\Users\Orr ozon\.jenkins\workspace\Git MySoftware>exit 0 
+Finished: SUCCESS
