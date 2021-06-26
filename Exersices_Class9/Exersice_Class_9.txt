@@ -1,0 +1,17 @@
+py file:
+import getpass
+username = getpass.getuser()
+print(username)
+
+dokerfile:
+FROM python:3.8
+ADD getUser.py /
+CMD [ "python", "./getUser.py" ]
+
+continar run:
+C:\Users\orroz\Documents\Exersice_claas_9>docker run getuser
+root
+
+repository dokerhub link:
+https://hub.docker.com/repository/docker/orr1300/getuser
+
